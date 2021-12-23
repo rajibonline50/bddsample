@@ -35,6 +35,7 @@ public class GooglePageStepDef {
 			searchBox.sendKeys("Java Tutorial");
 			System.out.println("added something");
 			searchBox.submit();
+			System.out.println("Added by tester2");
 		}
 		
 		@Then("Should display Java Result Page")
