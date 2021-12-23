@@ -33,6 +33,7 @@ public class GooglePageStepDef {
 		public void u_ser_search_java_tutorial() {
 			WebElement searchBox = driver.findElement(By.name("q"));
 			searchBox.sendKeys("Java Tutorial");
+			System.out.println("added something");
 			searchBox.submit();
 		}
 		
